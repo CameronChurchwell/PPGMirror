@@ -2,7 +2,7 @@
 //  PPGMirrorApp.swift
 //  PPGMirror
 //
-//  Created by Steam Train on 2/29/24.
+//  Created by Cameron Churchwell on 2/29/24.
 //
 
 import SwiftUI
