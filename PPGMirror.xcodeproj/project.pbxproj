@@ -15,6 +15,13 @@
 		6B1FDD442B90F9B300539DBE /* PPGMirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FDD432B90F9B300539DBE /* PPGMirrorTests.swift */; };
 		6B1FDD4E2B90F9B300539DBE /* PPGMirrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FDD4D2B90F9B300539DBE /* PPGMirrorUITests.swift */; };
 		6B1FDD502B90F9B300539DBE /* PPGMirrorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FDD4F2B90F9B300539DBE /* PPGMirrorUITestsLaunchTests.swift */; };
+		6B5AF4492BA2956D0001F8CD /* mel_module.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AF4482BA2956D0001F8CD /* mel_module.mlpackage */; };
+		6B5AF44D2BA297960001F8CD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AF44C2BA297960001F8CD /* File.swift */; };
+		6B5AF4532BA2B0E70001F8CD /* mel_ppg_model.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AF4522BA2B0E70001F8CD /* mel_ppg_model.mlpackage */; };
+		6B5F2C892BA31ECB009EEDEB /* Phonemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F2C882BA31ECB009EEDEB /* Phonemes.swift */; };
+		6B74BF382B9F5B2700EC625B /* MicrophoneBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B74BF372B9F5B2700EC625B /* MicrophoneBuffer.swift */; };
+		6B74BF3A2B9F5BD700EC625B /* Posteriorgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B74BF392B9F5BD700EC625B /* Posteriorgram.swift */; };
+		6B74BF3C2B9FE8CB00EC625B /* PPG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B74BF3B2B9FE8CB00EC625B /* PPG.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		6B1FDD492B90F9B300539DBE /* PPGMirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPGMirrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1FDD4D2B90F9B300539DBE /* PPGMirrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPGMirrorUITests.swift; sourceTree = "<group>"; };
 		6B1FDD4F2B90F9B300539DBE /* PPGMirrorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPGMirrorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B5AF4482BA2956D0001F8CD /* mel_module.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = mel_module.mlpackage; sourceTree = "<group>"; };
+		6B5AF44C2BA297960001F8CD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		6B5AF4522BA2B0E70001F8CD /* mel_ppg_model.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = mel_ppg_model.mlpackage; sourceTree = "<group>"; };
+		6B5F2C882BA31ECB009EEDEB /* Phonemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phonemes.swift; sourceTree = "<group>"; };
+		6B74BF372B9F5B2700EC625B /* MicrophoneBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneBuffer.swift; sourceTree = "<group>"; };
+		6B74BF392B9F5BD700EC625B /* Posteriorgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posteriorgram.swift; sourceTree = "<group>"; };
+		6B74BF3B2B9FE8CB00EC625B /* PPG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPG.swift; sourceTree = "<group>"; };
 		7BE3494113DA909FE3904B83 /* Pods-PPGMirror.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPGMirror.debug.xcconfig"; path = "Target Support Files/Pods-PPGMirror/Pods-PPGMirror.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,13 +96,14 @@
 				7BE3494113DA909FE3904B83 /* Pods-PPGMirror.debug.xcconfig */,
 				2384E8726BBA9B86238AA6E0 /* Pods-PPGMirror.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6B1FDD262B90F9B000539DBE = {
 			isa = PBXGroup;
 			children = (
+				6B5AF4482BA2956D0001F8CD /* mel_module.mlpackage */,
+				6B5AF4522BA2B0E70001F8CD /* mel_ppg_model.mlpackage */,
 				6B1FDD312B90F9B000539DBE /* PPGMirror */,
 				6B1FDD422B90F9B300539DBE /* PPGMirrorTests */,
 				6B1FDD4C2B90F9B300539DBE /* PPGMirrorUITests */,
@@ -112,9 +127,14 @@
 			isa = PBXGroup;
 			children = (
 				6B1FDD322B90F9B000539DBE /* PPGMirrorApp.swift */,
+				6B74BF3B2B9FE8CB00EC625B /* PPG.swift */,
+				6B5F2C882BA31ECB009EEDEB /* Phonemes.swift */,
 				6B1FDD342B90F9B000539DBE /* ContentView.swift */,
+				6B74BF392B9F5BD700EC625B /* Posteriorgram.swift */,
 				6B1FDD362B90F9B200539DBE /* Assets.xcassets */,
 				6B1FDD382B90F9B200539DBE /* Preview Content */,
+				6B74BF372B9F5B2700EC625B /* MicrophoneBuffer.swift */,
+				6B5AF44C2BA297960001F8CD /* File.swift */,
 			);
 			path = PPGMirror;
 			sourceTree = "<group>";
@@ -308,7 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5F2C892BA31ECB009EEDEB /* Phonemes.swift in Sources */,
+				6B5AF4492BA2956D0001F8CD /* mel_module.mlpackage in Sources */,
+				6B74BF3A2B9F5BD700EC625B /* Posteriorgram.swift in Sources */,
+				6B5AF44D2BA297960001F8CD /* File.swift in Sources */,
+				6B74BF3C2B9FE8CB00EC625B /* PPG.swift in Sources */,
+				6B74BF382B9F5B2700EC625B /* MicrophoneBuffer.swift in Sources */,
 				6B1FDD352B90F9B000539DBE /* ContentView.swift in Sources */,
+				6B5AF4532BA2B0E70001F8CD /* mel_ppg_model.mlpackage in Sources */,
 				6B1FDD332B90F9B000539DBE /* PPGMirrorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,8 +501,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PPGMirror/Preview Content\"";
+				DEVELOPMENT_TEAM = 89334LZ9AZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to transcribe your pronunciations!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -503,8 +532,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PPGMirror/Preview Content\"";
+				DEVELOPMENT_TEAM = 89334LZ9AZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to transcribe your pronunciations!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

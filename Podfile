@@ -6,5 +6,5 @@ target 'PPGMirror' do
   use_frameworks!
 
   # Pods for PPGMirror
-  pod 'LibTorch-Lite', '~>2.1.0'
+#  pod 'LibTorch-Lite', '~>2.1.0'
 end
